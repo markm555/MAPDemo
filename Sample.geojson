@@ -1,11 +1,7 @@
 {
-    "type": "Feature",
-    "geometry": {
-        "type": "Point",
-        "coordinates": [-122.126986, 47.639754]
-    },
-    "properties": {
-        "subType": "Circle",
-        "radius": 10
-    }
+  "type": "Feature",
+  "properties": {
+    "radius": 443.0003055263856,
+  },
+  "geometry": { "type": "Point", "coordinates": [-74.008317, 40.72251] }
 }  
