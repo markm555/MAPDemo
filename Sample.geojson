@@ -1,15 +1,11 @@
-  style: new Style({
-    fill: new Fill({
-      color: "rgba(255, 255, 255, 0.5)"
-    }),
-    stroke: new Stroke({
-      color: "rgba(0, 0, 0, 0.8)",
-      Width: 2
-    }),
-    geometry: function (feature) {
-      return new Circle(
-        feature.getGeometry().getCoordinates(),
-        feature.get("radius")
-      );
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [-122.126986, 47.639754]
+    },
+    "properties": {
+        "subType": "Circle",
+        "radius": 100
     }
-  })
+}
