@@ -1,7 +1,7 @@
 {
     "type": "Feature",
     "geometry": {
-        "type": "Circle",
+        "type": "point",
         "coordinates": [-98.471944444, 29.52666666]
     },
     "properties": {
