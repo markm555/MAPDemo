@@ -1,7 +1,15 @@
-{
-  "type": "Feature",
-  "properties": {
-    "radius": 40,
-  },
-  "geometry": { "type": "Point", "coordinates":[-98.471944444, 29.52666666] }
-}  
+  style: new Style({
+    fill: new Fill({
+      color: "rgba(255, 255, 255, 0.5)"
+    }),
+    stroke: new Stroke({
+      color: "rgba(0, 0, 0, 0.8)",
+      Width: 2
+    }),
+    geometry: function (feature) {
+      return new Circle(
+        feature.getGeometry().getCoordinates(),
+        feature.get("radius")
+      );
+    }
+  })
