@@ -6,6 +6,6 @@
     },
     "properties": {
         "subType": "Circle",
-        "radius": 50
+        "radius": 1
     }
 }  
