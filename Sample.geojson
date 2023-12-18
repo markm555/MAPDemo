@@ -1,7 +1,7 @@
 {
   "type": "Feature",
   "properties": {
-    "radius": 443.0003055263856,
+    "radius": 40,
   },
   "geometry": { "type": "Point", "coordinates":[-98.471944444, 29.52666666] }
 }  
